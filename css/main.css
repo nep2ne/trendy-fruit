@@ -13,7 +13,8 @@ html {
   font-family: "Open Sans", sans-serif;
   font-family: "Gravitas One", cursive;
   font-family: "Rammetto One", cursive;
-  font-family: Comfortaa, cursive;}
+  font-family: Comfortaa, cursive;
+}
 
 *, *::before, *::after {
   box-sizing: inherit;
@@ -21,9 +22,37 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
+}
 
 .flex {
   display: block;
   width: 100%;
+}
+
+article h1 {
+  font-family: "Rammetto One", cursive;
+}
+
+article h2 {
+  font-family: "Gravitas One", cursive;
+}
+
+article h3 {
+  font-family: Comfortaa, cursive;
+}
+
+.watermelon {
+  background-color: #e97065;
+}
+
+.starfruit {
+  background-color: #fbd25e;
+}
+
+.persimmon {
+  background-color: #e86033;
+}
+
+p {
+  font-family: "Open Sans", serif;
 }
